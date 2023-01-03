@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PerformanceInfo>
+    <Doc>
+        <DocTitle>ServiceOn EM CONFIGURATION: Performance</DocTitle>
+        <DocDtd author="Ericsson" version="3.1"/>
+        <DocGenerator application="ServiceOnEM-PPMxml" date="2018-09-03 19.15.00"/>
+    </Doc>
+    <EM EMId="0" Id="EM-0">
+        <EMName CORE="5" version="21.1.1">soempms01</EMName>
+    </EM>
+    <NE Id="NE-0-13143" NEIdOnEM="13143" emId="EM-0">
+        <NEIdentity>
+            <NEName longName="Emamreza Amol-MA0950/LRAN SPO">
+                <NEShortName>VXX13143.1</NEShortName>
+                <NESuffix>1</NESuffix>
+            </NEName>
+            <EMPlugin NEBasicTypeId="43" version="19.7.1.L">VXX</EMPlugin>
+            <NEType NEModel="" NETypeId="174">SPO1410</NEType>
+            <NEProtocol>
+                <ipAdd>
+                    <Address>10.74.196.117</Address>
+                </ipAdd>
+            </NEProtocol>
+        </NEIdentity>
+        <NECustomerInfo>
+            <Location>
+                <Addr>10.74.196.117:::</Addr>
+                <Room></Room>
+                <Row></Row>
+                <Rack></Rack>
+                <SubRack></SubRack>
+            </Location>
+        </NECustomerInfo>
+    </NE>
+    <Time enddate="2018-09-03 19.30.00" startdate="2018-09-03 19.15.00"/>
+    <Shelf Id="SH-0-13143-0" ShelfIdOnEM="0" ShelfIdOnNM="1" emId="EM-0" neId="NE-0-13143">
+        <ShelfIdentity shelfTypeId="0">Main Shelf (Unit 1)</ShelfIdentity>
+    </Shelf>
+    <Equip Id="EQ-0-13143-0-0-3" emId="EM-0" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <EquipIdentity cardId="3" cardTypeId="98" physicalSlotId="0">2x10GE(SM) 2xGE(SM) (Slot 3)</EquipIdentity>
+    </Equip>
+    <Equip Id="EQ-0-13143-0-0-4" emId="EM-0" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <EquipIdentity cardId="4" cardTypeId="62" physicalSlotId="0">10xGE(SM) B (Slot 4)</EquipIdentity>
+    </Equip>
+    <Equip Id="EQ-0-13143-0-0-5" emId="EM-0" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <EquipIdentity cardId="5" cardTypeId="37" physicalSlotId="0">10xGE(SM) 32xMAP(SM) A (Slot 5)</EquipIdentity>
+    </Equip>
+    <Equip Id="EQ-0-13143-0-0-6" emId="EM-0" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <EquipIdentity cardId="6" cardTypeId="37" physicalSlotId="0">10xGE(SM) 32xMAP(SM) A (Slot 6)</EquipIdentity>
+    </Equip>
+    <Source Id="SO-0-13143-0-0-3-9-1-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-3" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="1"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-2-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="2"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-10-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="10"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-1-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="1"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-4-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="4"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-5-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="5"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-3-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="3"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-6-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="6"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-7-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="7"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-9-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="9"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-4-9-8-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="8"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-5-9-1-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-5" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="1"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-6-9-1-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="1"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-5-9-4-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-5" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="4"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-6-9-3-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="3"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-6-9-2-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="2"/>
+        </SourceInfo>
+    </Source>
+    <Source Id="SO-0-13143-0-0-6-9-4-0-0-0-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0">
+        <SourceInfo schemeName="ETH">
+            <SchemeETH sourceNumber="0" port="4"/>
+        </SourceInfo>
+    </Source>
+    <Entity Id="EN-0-13143-0-0-3-9-1-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-3" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-3-9-1-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">208312549399</Counter>
+            <Counter name="TotPackets">635941045</Counter>
+            <Counter name="BroadcPack">5333</Counter>
+            <Counter name="MulticPack">13409</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">0</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">19.6</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-2-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-2-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">9620172372</Counter>
+            <Counter name="TotPackets">71634941</Counter>
+            <Counter name="BroadcPack">3</Counter>
+            <Counter name="MulticPack">990</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">134804</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">9.8</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-10-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-10-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">393939533</Counter>
+            <Counter name="TotPackets">2539525</Counter>
+            <Counter name="BroadcPack">1</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">10044</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">0.3</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-1-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-1-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">0</Counter>
+            <Counter name="TotPackets">0</Counter>
+            <Counter name="BroadcPack">0</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">0</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">0.0</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-4-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-4-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">8028545630</Counter>
+            <Counter name="TotPackets">60882891</Counter>
+            <Counter name="BroadcPack">12</Counter>
+            <Counter name="MulticPack">990</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">156283</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">8.2</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-5-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-5-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">1752691520</Counter>
+            <Counter name="TotPackets">12597619</Counter>
+            <Counter name="BroadcPack">1</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">32805</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">1.7</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-3-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-3-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">8293324459</Counter>
+            <Counter name="TotPackets">62675626</Counter>
+            <Counter name="BroadcPack">4</Counter>
+            <Counter name="MulticPack">994</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">65367</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">8.4</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-6-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-6-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">1371270132</Counter>
+            <Counter name="TotPackets">11957380</Counter>
+            <Counter name="BroadcPack">1</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">380</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">1.4</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-7-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-7-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">1387769757</Counter>
+            <Counter name="TotPackets">9991279</Counter>
+            <Counter name="BroadcPack">2</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">4851</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">1.4</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-9-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-9-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">1131742777</Counter>
+            <Counter name="TotPackets">9486460</Counter>
+            <Counter name="BroadcPack">0</Counter>
+            <Counter name="MulticPack">991</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">13417</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">1.1</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-4-9-8-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-4" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-4-9-8-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">2867772434</Counter>
+            <Counter name="TotPackets">21823604</Counter>
+            <Counter name="BroadcPack">3</Counter>
+            <Counter name="MulticPack">900</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">9826</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">2.9</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-5-9-1-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-5" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-5-9-1-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">1386397758</Counter>
+            <Counter name="TotPackets">12141235</Counter>
+            <Counter name="BroadcPack">0</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">4785</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">1.4</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-6-9-1-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-6-9-1-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">0</Counter>
+            <Counter name="TotPackets">0</Counter>
+            <Counter name="BroadcPack">0</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">0</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">0.0</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-5-9-4-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-5" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-5-9-4-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">5399984088</Counter>
+            <Counter name="TotPackets">43870352</Counter>
+            <Counter name="BroadcPack">2</Counter>
+            <Counter name="MulticPack">1080</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">110758</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">5.5</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-6-9-3-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-6-9-3-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">0</Counter>
+            <Counter name="TotPackets">0</Counter>
+            <Counter name="BroadcPack">0</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">0</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">0.0</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-6-9-2-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-6-9-2-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">1417672116</Counter>
+            <Counter name="TotPackets">12150089</Counter>
+            <Counter name="BroadcPack">0</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">2451</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">1.4</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+    <Entity Id="EN-0-13143-0-0-6-9-4-0-0-0-0-21-0" emId="EM-0" equipId="EQ-0-13143-0-0-6" neId="NE-0-13143" shelfId="SH-0-13143-0" sourceId="SO-0-13143-0-0-6-9-4-0-0-0-0">
+        <EntityIdentity entityTypeId="21">RMON</EntityIdentity>
+        <Details>
+            <Compliance complianceId="0" complianceType="em">Success</Compliance>
+            <Counter name="DropEvents">0</Counter>
+            <Counter name="TotlOctets">0</Counter>
+            <Counter name="TotPackets">0</Counter>
+            <Counter name="BroadcPack">0</Counter>
+            <Counter name="MulticPack">0</Counter>
+            <Counter name="CrcAlgnErr">0</Counter>
+            <Counter name="UndSizPack">0</Counter>
+            <Counter name="OvrSizPack">0</Counter>
+            <Counter name="Fragments">0</Counter>
+            <Counter name="Jabbers">0</Counter>
+            <Counter name="Collisions">0</Counter>
+            <Counter name="Utilizatio">0.0</Counter>
+            <Threshold></Threshold>
+            <JobStrings circNameString="" jobId="390028" jobNoteString="LRAN-SPO-MAZANDARAN-1410-15min"/>
+            <TimeStamp localTimeFormatId="2018-09-03 19.30.00"/>
+        </Details>
+    </Entity>
+</PerformanceInfo>
